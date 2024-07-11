@@ -1,0 +1,21 @@
+<p appHighlight>Eu sou um parágrafo utilizando Diretiva!!!</p>
+
+<p appStyle>Primeiro Parágrafo!</p>
+
+<!-- conceito de classes -->
+
+<p class="meu-texto">Normal Class</p>
+<p appClass>Diretiva Class</p>
+
+<!-- conceito de HostListener -->
+
+<input type="text" appListener>
+
+<br>
+<br>
+<br>
+
+<input type="text" appInputBackground="orange" textColor="white"> <!-- o titulo appInputBackground por ser igual a diretiva, possibilita em passa o valor diretamente. -->
+<input type="text" appInputBackground="green" textColor="black">
+<input type="text" appInputBackground="black" textColor="white">
+<input type="text" [appInputBackground]="bgColorComponent" textColor="white">

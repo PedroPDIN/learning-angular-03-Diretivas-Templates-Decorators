@@ -1,0 +1,19 @@
+<br>
+<div #minhaDiv></div>
+<div id="outra-div"></div>
+
+<br>
+
+<button (click)="creteElement()">Criar Div</button>
+
+<h1>ElementRef com Diretiva</h1>
+
+<div appFocusSecondInputDirective>
+  <input type="text" placeholder="input 1">
+  <input type="text" placeholder="input 2">
+  <input type="text" placeholder="input 3">
+</div>
+
+
+<h1>Teste De Vulnerabilidade XSS</h1>
+<app-xss></app-xss>
