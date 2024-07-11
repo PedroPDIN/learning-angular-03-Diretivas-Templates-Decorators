@@ -29,5 +29,4 @@ export class XssComponent {
     this._renderer2.appendChild(this._elRef.nativeElement, elDiv);
   }
 
-
 }
